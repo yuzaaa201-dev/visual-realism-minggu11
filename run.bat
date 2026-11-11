@@ -3,7 +3,7 @@ setlocal
 cd /d "%~dp0"
 
 if not defined JAVA_HOME (
-    echo JDK 17 atau lebih baru diperlukan. Atur JAVA_HOME ke folder instalasi JDK 17+.
+    echo JDK 11 atau lebih baru diperlukan. Atur JAVA_HOME ke folder instalasi JDK 11+.
     exit /b 1
 )
 if not exist "%JAVA_HOME%\bin\java.exe" (
@@ -21,8 +21,8 @@ if not defined JAVA_MAJOR (
     echo Versi Java tidak dapat dibaca dari JAVA_HOME.
     exit /b 1
 )
-if %JAVA_MAJOR% LSS 17 (
-    echo Project ini memerlukan JDK 17 atau lebih baru. Versi aktif: %JAVA_VERSION%
+if %JAVA_MAJOR% LSS 11 (
+    echo Project ini memerlukan JDK 11 atau lebih baru. Versi aktif: %JAVA_VERSION%
     exit /b 1
 )
 

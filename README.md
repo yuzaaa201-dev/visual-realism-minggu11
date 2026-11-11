@@ -1,10 +1,10 @@
 # 3D Visual Realism Suite
 
-Aplikasi praktikum Grafika Komputer Minggu 11 untuk mengamati rendering permukaan 3D. Project ini melanjutkan struktur project Minggu 10 dan menggunakan Java 17, LWJGL 3, JOML, OpenGL 3.3 Core, serta GLSL.
+Aplikasi praktikum Grafika Komputer Minggu 11 untuk mengamati rendering permukaan 3D. Project ini melanjutkan struktur project Minggu 10 dan menggunakan Java 11 atau lebih baru, LWJGL 3, JOML, OpenGL 3.3 Core, serta GLSL.
 
 ## Menjalankan
 
-Persyaratan: JDK 17 atau lebih baru, Maven 3.8 atau lebih baru, dan GPU/driver dengan dukungan OpenGL 3.3. Di NetBeans, buka folder ini sebagai Maven project, atur Java Platform ke JDK 17+, lalu jalankan goal `exec:java`. Dari terminal Windows, jalankan `run.bat`. Pada laptop pengembangan yang hanya menyediakan JDK 11, source pernah diverifikasi pada kompatibilitas compiler release 11; project tetap menetapkan Java 17 sehingga menjalankan konfigurasi standar memerlukan JDK 17+.
+Persyaratan: JDK 11 atau lebih baru, Maven 3.8 atau lebih baru, dan GPU/driver dengan dukungan OpenGL 3.3. Di NetBeans, buka folder ini sebagai Maven project, atur Java Platform ke JDK 11+, lalu jalankan goal `exec:java`. Dari terminal Windows, jalankan `run.bat`.
 
 Project mengunduh LWJGL 3.4.3 dan JOML 1.10.9 dari Maven Central pada build pertama. Profil native dipilih untuk Windows, Linux, dan macOS.
 
