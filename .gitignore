@@ -1,0 +1,12 @@
+target/
+*.class
+nbproject/private/
+.idea/
+
+# Personal report files and evidence stay local; the public repository is app source only.
+hasil_akhir/
+report_assets/
+build_report.py
+Tugas_Visual_Realism_Minggu11.zip
+/Laporan_Praktikum_Visual_Realism.docx
+/Laporan_Praktikum_Visual_Realism.pdf
